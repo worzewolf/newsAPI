@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>News</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <p>
+                <h3>Recent news</h3>
+            </p>
+        </div>
+        <select id="country" onchange="myFunction()">
+            <option value="ua" >UA</option>
+            <option value="ru">RU</option>
+            <option value="us">US</option>
+            <option value="fr">FR</option>
+            <option value="pl">PL</option>
+        </select>
+    </div>
+    <div class="container">
+        <div class="row news" id='news'>
+
+
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+
+</html>
